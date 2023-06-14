@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="app">
+      <div class="header">
+        <h2><span class="title">Notifications</span> <span class="unread-notification-number">3</span></h2>
+        <p>Mark all as read</p>
+      </div>
+      <div class="body">
+        <div class="notification unreaded">
+          <div class="avatar"><img src="assets/images/avatar-mark-webber.webp"></div>
+          <div class="text">
+            <div class="text-top">
+              <p><span class="profil-name">Mark Webber</span> reacted to your recent post <b>My first tournament
+                  today!</b><span class="unread-dot"></span></p>
+            </div>
+            <div class="text-bottom"> 1m ago</div>
+          </div>
+        </div>
+        <div class="notification unreaded">
+          <div class="avatar"><img src="assets/images/avatar-angela-gray.webp"></div>
+          <div class="text">
+            <div class="text-top">
+              <p><span class="profil-name">Angela Gray</span> followed you<span class="unread-dot"></span></p>
+            </div>
+            <div class="text-bottom"> 5m ago</div>
+          </div>
+        </div>
+        <div class="notification unreaded">
+          <div class="avatar"><img src="assets/images/avatar-jacob-thompson.webp"></div>
+          <div class="text">
+            <div class="text-top">
+              <p><span class="profil-name">Jacob Thompson</span> has joined your group <b class="b-blue">Chess
+                  Club</b><span class="unread-dot"></span></p>
+            </div>
+            <div class="text-bottom"> 1 day ago</div>
+          </div>
+        </div>
+        <div class="notification readed private-message">
+          <div class="avatar"><img src="assets/images/avatar-rizky-hasanuddin.webp"></div>
+          <div class="text">
+            <div class="text-top">
+              <p><span class="profil-name">Rizky Hasanuddin</span> sent you a private message</p>
+            </div>
+            <div class="text-bottom"> 5 days ago
+              <p> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+                I'm already having lots of fun and improving my game.</p>
+            </div>
+          </div>
+        </div>
+        <div class="notification readed picture">
+          <div class="avatar"><img src="assets/images/avatar-kimberly-smith.webp"></div>
+          <div class="text">
+            <div class="text-top">
+              <p><span class="profil-name">Kimberly Smith</span> commented on your picture</p>
+            </div>
+            <div class="text-bottom"> 1 week ago</div>
+          </div>
+          <div class="commented-picture">
+            <img src="assets/images/image-chess.webp">
+          </div>
+        </div>
+        <div class="notification readed">
+          <div class="avatar"><img src="assets/images/avatar-nathan-peterson.webp"></div>
+          <div class="text">
+            <div class="text-top">
+              <p><span class="profil-name">Nathan Peterson</span> reacted to your recent post <b>5 end-game strategies to increase your win rate</b></p>
+            </div>
+            <div class="text-bottom">  2 weeks ago</div>
+          </div>
+        </div>
+        <div class="notification readed">
+          <div class="avatar"><img src="assets/images/avatar-anna-kim.webp"></div>
+          <div class="text">
+            <div class="text-top">
+              <p><span class="profil-name">Anna Kim </span>left the group<b class="b-blue"> Chess Club</b></p>
+            </div>
+            <div class="text-bottom">   2 weeks ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/vonjytahina" target="_blank">Vonjy Tahina CHAN</a>.
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
